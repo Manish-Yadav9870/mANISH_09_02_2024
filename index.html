@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        .main_container {
+            border: 10px solid rgb(6, 59, 92);
+            /* height: 900px; */
+            /* background-color: lightskyblue; */
+        }
+
+        .nav_div {
+            display: flex;
+            gap: 15%;
+
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .image_div {
+            /* border: 1px solid salmon; */
+            margin-left: 15%;
+        }
+
+        .image_div img {
+            height: 50px;
+            margin-top: 1px;
+            /* margin-bottom: 200px; */
+            /* width: 100px; */
+        }
+
+        .menu_div ul {
+            /* border: 1px solid black; */
+            display: flex;
+            gap: 20px;
+            color: black;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .menu_div li {
+            list-style: none;
+        }
+
+        .First_container {
+            /* border: 1px solid salmon; */
+            width: 80%;
+            height: 15%;
+            margin: auto;
+            background-color: rgb(9, 4, 48);
+            text-align: center;
+            margin-top: 2%;
+            border-radius: 5px;
+            /* display: grid; */
+            /* place-items: center;  */
+            padding: 50px;
+        }
+
+        .First_container h1,
+        .First_container h3 {
+            color: white;
+            /* margin: 0px; */
+        }
+
+        .First_container button {
+            height: 20%;
+            width: 10%;
+            background-color: lightskyblue;
+            border-radius: 10px;
+            margin: 0px;
+        }
+
+        .h3_div {
+            /* border: 1px solid salmon; */
+            width: 85%;
+            margin: auto;
+        }
+
+        .fourth_div {
+            /* border: 1px solid salmon; */
+            display: flex;
+            justify-content: space-between;
+            /* gap: 20px; */
+            width: 85%;
+            margin: auto;
+        }
+
+        .fourth_div div img {
+            padding: 20px;
+            width: 90px;
+            height: 50px;
+        }
+
+        .fourth_div div {
+            width: 10%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .fourth_div div h5 {
+            padding: 20px;
+        }
+
+        .fifth_div {
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            width: 85%;
+            margin: auto;
+        }
+
+        .fifth_div div {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 32%;
+        }
+
+        .fifth_div div img {
+            width: 50px;
+            height: 50px;
+        }
+
+         @media screen and (min-width:200px) and (max-width:400px){
+            
+            .main_container {
+            border: 10px solid rgb(25, 243, 5);
+            /* height: 900px; */
+            /* background-color: lightskyblue; */
+        }
+
+        .nav_div {
+            /* display: flex; */
+            /* gap: 15%; */
+
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .image_div {
+            /* border: 1px solid salmon; */
+            margin-left: 30%;
+        }
+
+        .image_div img {
+            height: 60px;
+            /* margin-top: 1px; */
+            /* margin-bottom: 200px; */
+            /* width: 100px; */
+        }
+
+        .menu_div ul {
+            /* border: 1px solid black; */
+            /* display: flex; */
+            /* gap: 20px; */
+            /* color: black; */
+            /* font-weight: bold; */
+            /* margin-top: 15px; */
+            display: none;
+        }
+
+        .menu_div li {
+            /* list-style: none; */
+        }
+    } 
+    </style>
+</head>
+
+<body>
+
+    <div class="main_container">
+        <nav class="nav_div">
+            <div class="image_div">
+                <img src="./IMAGES/indmoney-app.png">
+            </div>
+            <div class="menu_div">
+                <ul>
+                    <li>Explore</li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Blog</li>
+                    <li>Customer Service</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="second_main_div">
+            <div class="First_container">
+                <h1>Free US Stocks Worth Upto ₹1000*</h1>
+                <h3>on your first US Stock Funtime</h3>
+                <button>Claim</button>
+            </div>
+            <div class="h3_div">
+                <h3>Invest in top tech stocks</h3>
+            </div>
+            <div class="fourth_div">
+                <div class="1"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.55 (1).jpeg">
+                    <h5>Apple Inc</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="2"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.00.jpeg">
+                    <h5>Microsoft</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="3"> <img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.58 (1).jpeg">
+                    <h5>Google</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="4"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.02.jpeg">
+                    <h5>Tiwan<br>Semiconductor</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="5"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.01 (3).jpeg">
+                    <h5>NVIDIA</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="6"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.55.jpeg">
+                    <h5>Broadcom Inc.</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="7"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.59 (1).jpeg">
+                    <h5>Johnson & Johnson</h5>
+                    <h5>$164.5</h5>
+                </div>
+                <div class="8"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.59.jpeg">
+                    <h5>Merckco Inc.</h5>
+                    <h5>$164.5</h5>
+                </div>
+            </div>
+            <div class="h3_div">
+                <h2>Charges outside of INDmoney</h2>
+                <h6>US Stocks</h6>
+            </div>
+            <div class="fifth_div">
+                <div class="stocks1">
+                    <img src="./IMAGES/WhatsApp Image 2024-02-12 at 17.29.07.jpeg">
+                    <h3>transition</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Ad, recusandae?Lorem
+                        ipsum dolor sit<br> amet consectetur adipisicing elit. Quibusdam, est.</p>
+                </div>
+                <div class="stocks2">
+                    <img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.56.jpeg">
+                    <h3>Differents</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, odit eligendi<br>
+                        officiis qui explicabo ducimus architecto maxime nihil aspe pariatur<br>
+                        tempore ipsum at quidem accusantium laboriosam i. Quas repellat eius<br>
+                        omnis quam! Dolorum commodi nostrum repellat con dicta quos iusto!</p>
+                </div>
+                <div class="stocks3">
+                    <img src="./IMAGES/text-tax-check-mark-design-260nw-2143655289.webp">
+                    <h3>TCS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="h3_div">
+                <h6>Matual Fund</h6>
+            </div>
+            <div class="fifth_div">
+                <div class="stocks1">
+                    <img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.01 (2).jpeg">
+                    <h3>Expencive Ratio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Ad, recusandae?Lorem ipsum dolor
+                        sit<br>
+                        amet consectetur adipisicing elit. Quibusdam, est.</p>
+                </div>
+                <div class="stocks2">
+                    <img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.01 (1).jpeg">
+                    <h3>STT(Stamp duty)</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, odit eligendi<br>
+                        officiis qui explicabo ducimus architecto maxime nihil aspe pariatur<br>
+                        tempore ipsum at quidem accusantium laboriosam i. Quas repellat eius<br>
+                        omnis quam! Dolorum commodi nostrum repellat con dicta quos iusto!</p>
+                </div>
+                <div class="stocks3">
+                    <img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.18.57.jpeg">
+                    <h3>Exit Lands</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
