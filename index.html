@@ -37,6 +37,15 @@
             font-weight: bold;
             margin-top: 15px;
         }
+        #li:hover{
+            cursor: pointer;
+            border-bottom: 3px solid rgb(243, 7, 7);
+            box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            transition: all;
+            
+
+            
+        }
 
         .menu_div li {
             list-style: none;
@@ -82,6 +91,7 @@
             justify-content: space-between;
             /* gap: 20px; */
             width: 85%;
+            /* height: 10%; */
             margin: auto;
         }
 
@@ -93,11 +103,12 @@
 
         .fourth_div div {
             width: 10%;
+            height: 1%;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
 
         .fourth_div div h5 {
-            padding: 20px;
+            padding-left: 15px;
         }
 
         .fifth_div {
@@ -118,47 +129,7 @@
             height: 50px;
         }
 
-         @media screen and (min-width:200px) and (max-width:400px){
-            
-            .main_container {
-            border: 10px solid rgb(25, 243, 5);
-            /* height: 900px; */
-            /* background-color: lightskyblue; */
-        }
-
-        .nav_div {
-            /* display: flex; */
-            /* gap: 15%; */
-
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-
-        .image_div {
-            /* border: 1px solid salmon; */
-            margin-left: 30%;
-        }
-
-        .image_div img {
-            height: 60px;
-            /* margin-top: 1px; */
-            /* margin-bottom: 200px; */
-            /* width: 100px; */
-        }
-
-        .menu_div ul {
-            /* border: 1px solid black; */
-            /* display: flex; */
-            /* gap: 20px; */
-            /* color: black; */
-            /* font-weight: bold; */
-            /* margin-top: 15px; */
-            display: none;
-        }
-
-        .menu_div li {
-            /* list-style: none; */
-        }
-    } 
+    
     </style>
 </head>
 
@@ -171,12 +142,12 @@
             </div>
             <div class="menu_div">
                 <ul>
-                    <li>Explore</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
-                    <li>Customer Service</li>
-                    <li>Login</li>
+                    <li id="li">Explore</li>
+                    <li id="li">Features</li>
+                    <li id="li">Pricing</li>
+                    <li id="li">Blog</li>
+                    <li id="li">Customer Service</li>
+                    <li id="li">Login</li>
                 </ul>
             </div>
         </nav>
@@ -203,7 +174,7 @@
                     <h5>$164.5</h5>
                 </div>
                 <div class="4"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.02.jpeg">
-                    <h5>Tiwan<br>Semiconductor</h5>
+                    <h5>Tiwan Semiconductor</h5>
                     <h5>$164.5</h5>
                 </div>
                 <div class="5"><img src="./IMAGES/WhatsApp Image 2024-02-12 at 15.19.01 (3).jpeg">
